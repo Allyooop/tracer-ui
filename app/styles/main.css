@@ -4717,8 +4717,22 @@ select, select.form-control {
   border: none;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
 
+/*
+    Document   : app/styles/_sidebar．scss
+    Created on : 2014-12-03 03:03 PM
+    Author     : anotherangrymouse
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+.sidebar {
+  position: fixed; }
+
 body, p, h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif; }
+
+.main {
+  padding-top: 50px; }
 
 .browsehappy {
   margin: 0.2em 0;

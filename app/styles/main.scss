@@ -6,12 +6,16 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 
 @import "_variables.scss";
 @import "_paper.scss";
+@import "_sidebar.scss";
 
 
 body, p, h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
 }
-  
+
+.main {
+  padding-top: 50px;
+}
 
 .browsehappy {
     margin: 0.2em 0;
