@@ -4,6 +4,15 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+@import "_variables.scss";
+@import "_paper.scss";
+
+
+body, p, h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+}
+  
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
