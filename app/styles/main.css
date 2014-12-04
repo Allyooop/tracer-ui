@@ -4726,7 +4726,24 @@ select, select.form-control {
     To change this template use Tools | Templates.
 */
 .sidebar {
-  position: fixed; }
+  position: relative; }
+  .sidebar .nav {
+    position: fixed; }
+
+.sidebar-wrapper {
+  position: absolute; }
+
+/*
+    Document   : app/styles/_footer．scss
+    Created on : 2014-12-03 03:25 PM
+    Author     : anotherangrymouse
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+#footer {
+  margin-top: 50px;
+  padding-top: 50px; }
 
 body, p, h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif; }

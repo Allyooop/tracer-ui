@@ -8,6 +8,13 @@
 */
 
 .sidebar{
-  position: fixed;
+  position: relative;
+  
+  .nav {
+    position: fixed;
+  }
 }
 
+.sidebar-wrapper{
+  position: absolute;
+}
